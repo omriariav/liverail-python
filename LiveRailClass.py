@@ -11,7 +11,7 @@ DEV_URL = "http://api4.int.liverail.com"
 
 
 
-class liveRailMemeClass():
+class LiveRailClass():
 
     def __init__(self,env="dev"):
         self._headers = {"content-type": "application/x-www-form-urlencoded"}

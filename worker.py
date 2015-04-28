@@ -1,9 +1,9 @@
 __author__ = 'omriariav'
-from liveRailClass import *
+from LiveRailClass import *
 
 
 if __name__ == "__main__":
-    worker = liveRailMemeClass()
+    worker = LiveRailClass()
     worker.login("USERNAME","PASSWORD")
     worker.setEntity(worker._entity)
     res = worker.revenueReport({
